@@ -5,7 +5,7 @@ Este repositorio contiene la implementación práctica del flujo de trabajo esen
 ---
 
 ## 📝 Información General
-* **Autor:** Remigio Huarcaya Almeyda
+* **Autor:** Melody Palo Bravo
 * **Institución:** Laboratorio de Ingeniería de Sistemas e Informática
 * **Fecha:** Abril 2026
 * **Objetivo:** Implementar la gestión de versiones mediante comandos fundamentales y flujos de trabajo colaborativos.
