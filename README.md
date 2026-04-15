@@ -29,3 +29,8 @@ Se utilizó **Git Bash** para emular un entorno Linux en Windows, configurando l
 ```bash
 git config --global user.name "TuUsuario"
 git config --global user.email "tu@email.com"
+
+### 2. Inicialización del Repositorio
+Para comenzar con el seguimiento de versiones, se inicializó el proyecto creando la base de datos oculta de Git:
+```bash
+git init
