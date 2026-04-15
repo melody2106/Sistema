@@ -1,3 +1,31 @@
-Laboratorio: Introducción al Control de VersionesEste repositorio contiene la implementación práctica del flujo de trabajo esencial con Git y GitHub, desarrollado como parte de la especialidad de Ingeniería de Sistemas e Informática.📝 Información GeneralAutor: [Tu Nombre / Remigio Huarcaya Almeyda]Institución: Laboratorio de Ingeniería de Sistemas e InformáticaFecha: Abril 2026Objetivo: Implementar la gestión de versiones mediante comandos fundamentales y flujos de trabajo colaborativos.🚀 Fundamentos TeóricosEl proyecto se basa en el uso de Sistemas de Control de Versiones Distribuidos (DVCS). A diferencia de los sistemas locales o centralizados, Git permite que cada desarrollador posea una copia completa del historial, facilitando:Trabajo sin conexión.Ramificación (branching) rápida.Gestión eficiente de fusiones.🛠️ Flujo de Trabajo ImplementadoEl laboratorio cubrió el ciclo de vida completo de un proyecto bajo control de versiones:1. Configuración y PreparaciónSe utilizó Git Bash para emular un entorno Linux en Windows, configurando las credenciales globales:Bashgit config --global user.name "TuUsuario"
+# Laboratorio: Introducción al Control de Versiones
+
+Este repositorio contiene la implementación práctica del flujo de trabajo esencial con **Git y GitHub**, desarrollado como parte de la especialidad de Ingeniería de Sistemas e Informática.
+
+---
+
+## 📝 Información General
+* **Autor:** Remigio Huarcaya Almeyda
+* **Institución:** Laboratorio de Ingeniería de Sistemas e Informática
+* **Fecha:** Abril 2026
+* **Objetivo:** Implementar la gestión de versiones mediante comandos fundamentales y flujos de trabajo colaborativos.
+
+---
+
+## 🚀 Fundamentos Teóricos
+El proyecto se basa en el uso de **Sistemas de Control de Versiones Distribuidos (DVCS)**. A diferencia de los sistemas locales o centralizados, Git permite que cada desarrollador posea una copia completa del historial, facilitando:
+* Trabajo sin conexión.
+* Ramificación (*branching*) rápida.
+* Gestión eficiente de fusiones.
+
+---
+
+## 🛠️ Flujo de Trabajo Implementado
+El laboratorio cubrió el ciclo de vida completo de un proyecto bajo control de versiones:
+
+### 1. Configuración y Preparación
+Se utilizó **Git Bash** para emular un entorno Linux en Windows, configurando las credenciales globales:
+
+```bash
+git config --global user.name "TuUsuario"
 git config --global user.email "tu@email.com"
-2. Estados de GitEl proyecto sigue el modelo de tres estados:Working Directory: Edición de archivos locales.Staging Area: Preparación de cambios con git add.Local Repository: Confirmación de instantáneas con git commit.3. Gestión de Ramas (Branches)Se implementó un modelo de ramificación para separar las responsabilidades del desarrollo:main: Rama principal estable.desarrollo: Espacio para nuevas funcionalidades.pruebas: Entorno de QA y validación.📦 Comandos UtilizadosComandoDescripcióngit initInicializa el repositorio local.git cloneClona el repositorio remoto al equipo local.git statusVerifica el estado de los archivos.git commit -mRegistra los cambios en el historial (Convenciones: feat:, fix:, docs:).git branchAdministra y visualiza las ramas del proyecto.git pushSincroniza los cambios locales con el repositorio en GitHub.📋 Actividades Realizadas[x] Configuración de repositorio local y remoto.[x] Uso de convenciones para mensajes de commit (Conventional Commits).[x] Creación, publicación y eliminación de ramas (desarrollo, pruebas, documentacion).[x] Documentación profesional del proceso en este README.💡 ConclusionesEl uso de ramas semánticas y mensajes descriptivos no solo es una buena práctica, sino un estándar de la industria que facilita la integración continua y el mantenimiento de software a largo plazo.Documento generado para fines académicos - 2026
